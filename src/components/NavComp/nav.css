@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+[ui-sref] {
+  cursor: pointer;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+}

@@ -1,0 +1,8 @@
+<form ng-submit="tdv.addTodo(tdv.input)">
+  <input-comp button-label="Submit Todo" submit="tdv.addTodo(tdv.input)" input-value="tdv.input"></input-comp>
+</form>
+
+
+<ul class=''>
+  <li ui-sref="edit({index:$index})" ng-repeat="todo in tdv.todos track by $index"> {{ todo }} </li>
+</ul>
